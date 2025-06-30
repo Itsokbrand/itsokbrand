@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Itsok Brand</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .glow {
+      text-shadow: 0 0 10px lab(7.2% 27.42 -38.37), 0 0 20px #170d0d, 0 0 30px #150e0e;
+    }
+    @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  50% { border-color:transparent  }
+ 
+}
+.animate-typing {
+  display: inline-block;
+  animation: typing 3s steps(20), blink 0.7s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 left-0 w-full bg-black bg-opacity-80 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-white glow">Itsok</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#home" class="hover:text-gray-700">Home</a>
+        <a href="#closet" class="hover:text-gray-700">Closet</a>
+        <a href="#about" class="hover:text-gray-700">About</a>
+        <a href="#contact" class="hover:text-gray-700">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-br from-black via-gray-900 to-black pt-20">
+    <h2 class="text-5xl md:text-7xl font-extrabold mb-4 text-white">
+  <span class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-[#bfb4b4] pr-5">Welcome to Itsok</span>
+</h2>
+
+    <p class="text-xl text-gray-300 max-w-xl mx-auto mb-20">Bold fashion, fierce identity — made in Algeria for the world.</p>
+    <a href="#closet" class="bg-[#bfb4b4] hover:bg-gray-900 text-white font-semibold px-8 py-4 rounded-full text-xl transition duration-300 shadow-xl">
+      🛍️ Explore Closet
+    </a>
+  </section>
+
+  <!-- CLOSET SECTION -->
+  <section id="closet" class="py-24 px-6 bg-black">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-5xl font-bold mb-16 glow">Our Closet</h2>
+      <div class="flex justify-center bg-black py-20">
+  <div class="grid grid-cols-1 place-items-center">
+    <div class="bg-gray-900 p-6 rounded-2xl shadow-lg transform hover:scale-105 transition">
+      <img src=" " class="w-[300px] mx-auto rounded mb-4" alt="Shirt">
+      <h3 class="text-2xl font-bold mb-2">Itsok Shirt</h3>
+      <p class="text-gray-400">The Itsok Shirt is a blend of comfort and confidence.
+        <p class="text-gray-400"> Made from soft cotton with a relaxed fit </p>
+         <p class="text-gray-400">Simple in look, strong in message, forever in style </p>
+         <p class="text-gray-400"> — a reminder that it’s always okay to be you —</p>
+      <span class="block mt-2 text-[#bfb4b4] font-semibold">2200DA</span>
+      <a href="https://itsokorder.netlify.app" target="_blank"
+   class="mt-6 inline-block bg-[#bfb4b4] hover:bg-gray-900 active:bg-gray-700 text-white font-semibold px-8 py-4 rounded-full text-xl transition duration-300 shadow-xl">
+   🛒 Order Noww!!
+</a>
+
+</a>
+
+                 
+  </a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-24 px-6 bg-gray-900">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8 glow">About Us</h2>
+      <p class="text-gray-100 text-lg leading-relaxed">
+        Itsok is an Algerian brand born from a simple 
+        yet powerful idea. 
+        <p> to remind people that no matter what life throws at them, 
+          it’s going to be okay.
+         </p> 
+         <p>
+            We set out to create more than just clothing — we created a message,
+             an identity, and a mindset. Our signature piece, the Itsok brand,
+             represents quiet strength, resilience, and the dignity of those who
+               choose to keep going, even in the face of difficulty.
+               </p>
+                <p>
+                At Itsok, we focus on clean design, comfortable materials,
+                 and thoughtful craftsmanship. Every product is made with care, 
+                 aiming to offer not just style, but also a sense of confidence 
+                 and peace to the person wearing it.
+               </p>
+               <p>
+                Our mission is to build a community around a universal message,
+                 in a chaotic world, it’s important to pause, breathe, and remember that… 
+                 It is okey. Because behind every look, every step, every silence — there’s a 
+                 story. And we’re here to wear it with you.
+               </p>
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-24 px-6 bg-black">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8 glow">Contact Us</h2>
+      <form class="space-y-6">
+        <input type="text" placeholder="Your Name" class="w-full p-4 rounded bg-gray-800 text-white placeholder-gray-400">
+        <input type="email" placeholder="Your Email" class="w-full p-4 rounded bg-gray-800 text-white placeholder-gray-400">
+        <textarea placeholder="Your Message" rows="5" class="w-full p-4 rounded bg-gray-800 text-white placeholder-gray-400"></textarea>
+        <button class="w-full bg-[#bfb4b4] hover:bg-gray-900 text-white py-3 rounded text-lg font-bold transition">
+          ✉️ Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 py-6 text-center text-gray-500 text-sm">
+    © 2025 Itsok Brand. All rights reserved.
+  </footer>
+
+  <!-- SCROLLREVEAL -->
+  <script>
+    ScrollReveal().reveal('.glow', {
+      duration: 1500,
+      origin: 'top',
+      distance: '50px',
+      delay: 200,
+      reset: true
+    });
+    ScrollReveal().reveal('#closet .grid > div', {
+      interval: 150,
+      origin: 'bottom',
+      distance: '60px',
+      duration: 1200,
+      reset: true
+    });
+    ScrollReveal().reveal('#about', {
+      origin: 'left',
+      distance: '80px',
+      duration: 1200,
+      reset: true
+    });
+    ScrollReveal().reveal('#contact form', {
+      origin: 'right',
+      distance: '80px',
+      duration: 1200,
+      reset: true
+    });
+  </script>
+</body>
+</html>
+
+
