@@ -19,6 +19,40 @@
 }
 @keyframes blink {
   50% { border-color:transparent  }
+   @media (max-width: 768px) {
+      nav a {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+      header h1 {
+        font-size: 2.5rem;
+      }
+      
+      header p {
+        font-size: 1.1rem;
+      }
+      
+      nav a {
+        margin: 0 8px;
+        padding: 6px 12px;
+        font-size: 0.9rem;
+         white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px; 
+      }
+    
+      nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+      nav a i {
+  margin-right: 5px;
+}
+
  
 }
 .animate-typing {
